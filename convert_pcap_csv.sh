@@ -6,7 +6,7 @@ pcap_file="$1"
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"  # On the same directory.
 echo ">>> Script dir: ${script_dir}"
 
-output_dir="${script_dir}"/csv
+output_dir="$2"
 
 
 ## Clean
