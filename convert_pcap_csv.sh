@@ -41,8 +41,8 @@ cic="${script_dir}"/CICFlowMeters/CICFlowMeter-4.0/bin/CICFlowMeter
 "${cic}" "${pcap_file}" "${output_dir}"
 
 
-echo "+++ Remove ${pcap_file}"
-rm -f "${pcap_file}"
+#echo "+++ Remove ${pcap_file}"
+#rm -f "${pcap_file}"
 
 
 
